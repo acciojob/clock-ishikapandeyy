@@ -4,6 +4,6 @@ let newDate=new Date();
 setInterval(
 	function(){
 		newDate=new Date();
-		timeDisply.innerHtml=newDate.toLocalString();
+		timeDisply.innerHTML=newDate.toLocalString();
 	},1000
 )
